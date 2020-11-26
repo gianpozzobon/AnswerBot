@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #e7e7e7;
+  font-family: Amiko;
+}
+.chat {
+  width: 400px;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #5199e4;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  overflow-y: scroll;
+  padding-bottom: 15px;
+}
+.responses {
+  width: 100%;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: 2px dashed #e7e7e7;
+  padding-bottom: 10px;
+}
+.response {
+  min-height: 20px;
+  border: 1px solid #5199e4;
+  color: #5199e4;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.response:hover {
+  border: 2px solid #007bff;
+  color: #007bff;
+  font-weight: 700;
+}

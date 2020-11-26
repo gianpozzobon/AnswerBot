@@ -1,0 +1,36 @@
+.user_message_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.user_avatar_image {
+  width: 40px;
+}
+.user_message {
+  width: 50%;
+  min-height: 20px;
+  background-color: #e7e7e7;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+  text-align: justify;
+}
+.user_background_effect {
+  margin-top: 10px;
+  background-color: #e7e7e7;
+  height: 15px;
+  width: 10px;
+}
+.user_effect {
+  height: 15px;
+  width: 10px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+}
